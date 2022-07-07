@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#008ba3</color>
+    <color name="colorPrimaryLight">#62efff</color>
+<!--    <color name="colorAccent">#FF5722</color>-->
+
+    <color name="greyDark">#373737</color>
+    <color name="greyLight">#616161</color>
+
+
+    <color name="dark_blue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+
+    <color name="login_form_details">#ccffffff</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="login_form_details_medium">#66ffffff</color>
+
+    <color name="Dark_state_Blue">#3D348B</color>
+    <color name="colorAccent">#01B6A5</color>
+    <color name="job_title_color">#048E7D</color>
+    <color name="hintcolor">#DD353535</color>
+    <color name="job_yellow_color">#FFD600</color>
+    <color name="black_color">#000000</color>
+    <color name="white_color">#FFFFFF</color>
+
+</resources>

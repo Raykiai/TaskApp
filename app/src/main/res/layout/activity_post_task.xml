@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+
+    tools:context=".PostTaskActivity">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white_color"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create A New Task"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/job_title_color"
+        android:fontFamily="@font/little_birds"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Give a Task Title"
+        android:textColorHint="@color/hintcolor"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textColorHint="@color/hintcolor"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payment"
+        android:textColorHint="@color/hintcolor"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/vacancies"
+        android:textColorHint="@color/hintcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Number of vacancies"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/hintcolor"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Contact Info"
+
+        android:inputType="phone"
+         />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/hintcolor"
+        android:hint="Enter Email"
+
+        android:inputType="textEmailAddress"
+        />
+
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textColorHint="@color/hintcolor"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/workHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add Work Hours"
+        android:textColorHint="@color/hintcolor"
+        android:layout_marginTop="5dp"
+        android:inputType="time"
+        />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Save Task"
+        android:textStyle="bold"
+        android:background="@drawable/mybutton"
+        android:textAllCaps="false"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        />
+
+
+</LinearLayout>
+
+
+</ScrollView>

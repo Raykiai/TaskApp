@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".DisplayActivity">
+
+        <LinearLayout
+            android:id="@+id/display_details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/display_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Display Title"
+                android:gravity="center"
+                android:fontFamily="@font/billion_dreams"
+                android:textColor="#212121"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
+
+                android:layout_marginBottom="5dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+               />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@id/display_title"
+                android:background="#0CA0EF"
+                />
+            <TextView
+                android:id="@+id/details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Task Details:"
+
+                android:padding="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+                android:id="@+id/display_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display description"
+                android:textColor="#212121"
+                android:layout_below="@id/display_vacancy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="italic"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+
+            <!--Lets add a horizontal line-->
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@id/display_title"
+                android:background="#0CA0EF"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textColor="#212121"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+                android:autoLink="map"
+                android:id="@+id/display_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display location"
+                android:textColor="#212121"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="italic"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment:"
+                android:textColor="#212121"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+                android:id="@+id/display_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display payment"
+                android:textColor="#212121"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="italic"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Hours:"
+                android:textColor="#212121"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+
+                android:id="@+id/display_workHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display workHours"
+                android:textColor="#212121"
+                android:layout_below="@id/divider"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="italic"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vacancies:"
+                android:textColor="#212121"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+                android:id="@+id/display_vacancy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display vacancies"
+                android:textColor="#212121"
+                android:layout_below="@id/display_payment"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="italic"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Info:"
+                android:textColor="#212121"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/display_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:text="display Contact"
+                android:textColor="#009331"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            <TextView
+                android:id="@+id/display_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:text="display Email"
+                android:autoLink="email"
+                android:layout_marginLeft="5dp"
+                android:textColor="#009331"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:padding="8dp"
+
+                android:layout_marginTop="2dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                />
+            </LinearLayout>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/display_details_layout"
+               android:layout_gravity="center"
+                android:text="@string/apply_for_this_job"
+                android:textAllCaps="false"
+                android:textColor="@color/white_color"
+                android:layout_marginTop="20dp"
+                android:onClick="submitApplication"
+                android:background="@drawable/mybutton2"
+
+                />
+        </LinearLayout>
+
+
+</ScrollView>
